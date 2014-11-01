@@ -1,0 +1,12 @@
+<!doctype html>
+
+<title>React Brown Bag</title>
+
+<ol>
+<% exercises.forEach(function(ex, idx) { %>
+  <li><a href="/exercises/<%= idx + 1 %>"><%= ex.name %></a></li>
+<% }); %>
+</ol>
+
+<script src="/js/vendor.bundle.js"></script>
+<script src="/js/styles.bundle.js"></script>
