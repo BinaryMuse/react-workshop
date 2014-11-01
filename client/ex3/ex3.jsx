@@ -1,5 +1,3 @@
-var crypto = require("crypto");
-
 var React = require("react"),
     gravatar = require("gravatar");
 
