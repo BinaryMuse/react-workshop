@@ -21,7 +21,8 @@ var config = {
   cache: true,
   entry: {
     styles: "./client/styles.less",
-    test: "./client/test.jsx"
+    test: "./client/test.jsx",
+    todos: "./client/todos/todos.jsx"
   },
   output: {
     path: __dirname + "/public/js",

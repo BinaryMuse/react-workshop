@@ -27,6 +27,10 @@ app.get("/test", function(req, res) {
   res.render("test");
 });
 
+app.get("/todos", function(req, res) {
+  res.render("todos");
+});
+
 app.get("/exercises/:number", function(req, res, next) {
   var number = ~~req.params.number;
   if (number >= 1 && number <= exercises.length) {
