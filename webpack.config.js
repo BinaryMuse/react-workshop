@@ -24,7 +24,8 @@ var config = {
   },
   output: {
     path: __dirname + "/public/js",
-    filename: "[name].bundle.js"
+    filename: "[name].bundle.js",
+    publicPath: "/js/"
   },
   devtool: "eval-source-map",
   module: {
