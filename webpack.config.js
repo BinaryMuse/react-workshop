@@ -20,7 +20,8 @@ if (process.env.NODE_ENV === "production") {
 var config = {
   cache: true,
   entry: {
-    styles: "./client/styles.less"
+    styles: "./client/styles.less",
+    test: "./client/test.jsx"
   },
   output: {
     path: __dirname + "/public/js",
